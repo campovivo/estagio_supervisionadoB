@@ -206,15 +206,15 @@
 }
 
 #pacoca {
-    background-image: url(/static/media/pacoca.png);
+    background-image: url(media/pacoca.png);
 }
 
 #mel {
-    background-image: url(/static/media/mel.png);
+    background-image: url(media/mel.png);
 }
 
 #hortalicas {
-    background-image: url(/static/media/hortalicas.png);
+    background-image: url(media/hortalicas.png);
     background-size: 13rem;
 }
 
@@ -232,12 +232,15 @@
     display: contents;
 }
 
-.siema {
+.siema-container{
     filter: drop-shadow(12px 12px 6px rgba(0, 0, 0, 0.171));
 }
 
+.siema {
+}
+
 .siema img {
-    border-radius: 15px;
+    
 }
 
 .section {
